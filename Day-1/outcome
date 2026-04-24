@@ -1,0 +1,6 @@
+today i learned basic Numpy to get started with ML. Although i had been familar with these tools, i thought about brushing up my prior knowledge. thats why i covered all these topics in less time. this is what all i learned today on day-1
+-numpy basics
+-numpy to do matrix multiplication, hstack, vstack, vectorization and advance indexding 
+-using numpy we predicted values from a given data set using the inv and pinv function
+-learned linear regression but in matrix form 
+-used new input values and check the updated answers 

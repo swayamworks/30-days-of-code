@@ -1,0 +1,3 @@
+today i worked on tuning a random forest model today using randomizedsearchcv, kinda got how hyperparameters actually affect performance instead of just hearing about it. understood things like n_estimators, max_depth, and how cross validation is actually used when training. also realised my parameter range was pretty small so the tuning wasn’t that strong.
+
+i did take help but i didn’t just copy, i made sure i understood what was happening. still not confident enough to do this fully on my own yet, need more practice.

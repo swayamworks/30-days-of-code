@@ -1,0 +1,26 @@
+Today, I worked on a complete data cleaning and machine learning workflow using a real-world dataset.
+
+I started by cleaning the dataset:
+
+* Renamed and standardized column names
+* Handled missing values using methods like dropping and median filling
+* Removed unnecessary or irrelevant columns
+* Converted data types (e.g., date formatting)
+* Checked for duplicates and inconsistencies
+* Encoded categorical variables into numerical format
+* Ensured the dataset was fully clean with no null values remaining
+
+After preprocessing, I moved to model building:
+
+* Split the data into training and testing sets
+* Trained a regression model using scikit-learn
+* Evaluated model performance using metrics like R² and MAE
+* Improved the model by refining features and preprocessing steps
+
+Outcome:
+
+* Successfully transformed raw, messy data into a clean, structured dataset ready for machine learning
+* Built and evaluated a predictive model with strong performance
+* Gained practical understanding of the full pipeline from data cleaning to model evaluation
+
+This work strengthened my ability to handle real datasets and apply machine learning effectively in a practical scenario.

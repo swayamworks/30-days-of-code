@@ -1,0 +1,91 @@
+### 🧪 ML Prep Test (NumPy + Pandas + Matplotlib)
+
+You are given this dataset:
+
+```python
+import pandas as pd
+
+data = {
+    "name": ["A", "B", "C", "D", "E", "F"],
+    "age": [18, 20, None, 22, 19, None],
+    "hours_studied": [2, 5, 3, None, 4, 6],
+    "marks": [50, 80, 65, 90, None, 85],
+    "city": ["Mumbai", "Delhi", "Mumbai", "Delhi", "Pune", "Mumbai"]
+}
+
+df = pd.DataFrame(data)
+```
+
+---
+
+### 🔥 Tasks
+
+#### 1. Data Cleaning
+
+* Fill missing `age` with mean
+* Fill missing `hours_studied` with median
+* Drop rows where `marks` is missing
+
+---
+
+#### 2. Feature Engineering
+
+* Create a new column `performance`:
+
+  ```
+  performance = marks / hours_studied
+  ```
+* Create a column `status`:
+
+  * "pass" if marks >= 70
+  * "fail" otherwise
+
+---
+
+#### 3. Data Filtering
+
+* Show all students from Mumbai who passed
+
+---
+
+#### 4. Grouping
+
+* Find average marks for each city
+
+---
+
+#### 5. NumPy Part
+
+Convert the cleaned dataframe into NumPy and:
+
+* Separate features (X) and target (y)
+
+  * target = `marks`
+* Print shape of X and y
+
+---
+
+#### 6. Visualization (Matplotlib)
+
+* Scatter plot:
+
+  * x = hours_studied
+  * y = marks
+
+* Histogram of marks
+
+---
+
+### ⚠️ Rules
+
+* No ChatGPT / no copy paste
+* Google only if completely stuck
+* Keep code clean (not 100 messy lines)
+
+---
+
+### 💀 Final Check
+
+If you can’t complete at least **80% without struggling hard**, you’re not ready yet.
+
+If you finish this cleanly → you’re ready to start ML.

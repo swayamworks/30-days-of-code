@@ -1,0 +1,5 @@
+Today I worked on a data cleaning pipeline using Pandas. I handled messy data by converting mixed-format columns (like currency values) into clean numeric formats using string operations and regex. I identified and fixed logical inconsistencies such as invalid date ranges (end date before start date) and corrected them using time-based adjustments.
+
+I also removed duplicate columns, detected outliers using the IQR method, and understood how extreme values can impact model performance. Additionally, I practiced string parsing with regex to extract meaningful features (like season) from text data.
+
+Overall, I focused on making raw, messy data structured and usable for machine learning.
