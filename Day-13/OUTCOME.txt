@@ -1,0 +1,1 @@
+I had exams to prepare so didn't really practice on ML but I did understand some topics on G4G. today built a model that predicts AQI class. will work on it later cuz I just came from an hackathon built model there n after that did this so I want break now 
